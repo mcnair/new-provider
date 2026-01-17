@@ -1,0 +1,14 @@
+baseURL = "https://mcnair.github.io/new-provider/"
+languageCode = "en-us"
+title = "CoopVPN"
+relativeURLs = true #added for github
+canonifyURLs = true #added for github
+
+[params]
+  description = "A Worker-Owned VPN"
+
+[menu]
+  [[menu.main]]
+    name = "About Us"
+    url = "#about"
+    weight = 1
