@@ -1,7 +1,12 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://mcnair.github.io/new-provider/"
+languageCode = "en-us"
+title = "CoopVPN"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[params]
+  description = "A Worker-Owned VPN"
+
+[menu]
+  [[menu.main]]
+    name = "About Us"
+    url = "#about"
+    weight = 1
